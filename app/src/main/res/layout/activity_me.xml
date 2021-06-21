@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/me_bg">
+    <ImageView
+        android:id="@+id/iv_tou"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/tou2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="@string/user_name"
+            android:textSize="18sp"
+            android:focusable="true" />
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            android:autofillHints="" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:text="@string/password"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:layout_weight="8"
+            android:inputType="textPassword"
+            android:autofillHints=""/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="260dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:background="#55efc4"
+        android:text="登 录" />
+    <include layout="@layout/nav4" />
+</RelativeLayout>

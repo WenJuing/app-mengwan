@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">New</string>
+    <string name="todo">妹子图片</string>
+    <string name="hello">Hello</string>
+    <string name="ppt">PPT</string>
+    <string name="lie">列表视图</string>
+    <string name="btn">按钮</string>
+    <string name="puImg">瀑布流图片</string>
+    <string name="dongHua">动画</string>
+    <string name="tu">图片</string>
+    <string name="bo_fang">播放</string>
+    <string name="bi_zhi">壁纸</string>
+    <string name="shi_ping">视频</string>
+    <string name="me">我的</string>
+    <string name="baiDu">百度 (=`_`=)</string>
+    <string name="b">b站 (゜-゜)つロ</string>
+    <string name="zhiHu">知乎 ʕ•ﻌ•ʔ</string>
+    <string name="hot">热门导航</string>
+    <string name="hint1">请输入视频文件路径</string>
+    <string name="dy">电影天堂</string>
+    <string name="dycsm">美剧传送门-></string>
+    <string name="user_name">账号：</string>
+    <string name="password">密码：</string>
+    <string name="zxbf">在线播放</string>
+</resources>

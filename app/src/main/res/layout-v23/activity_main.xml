@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:paddingLeft="280dp"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#55efc4"
+        android:background="#00000000"
+        android:text="右滑试试~" />
+    <ImageView
+        android:id="@+id/iv_flower"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/frame"
+        android:contentDescription="@string/todo" />
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:background="@android:drawable/ic_media_play"/>
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:background="#141E30"
+            android:foreground="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical"
+            tools:ignore="RtlHardcoded"
+            android:focusable="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:textColor="#b2bec3"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/shape_10dp_deep_corners"
+                android:text="  未登录 >"
+                tools:ignore="RtlSymmetry" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="-100dp"
+                android:text="↓热门网站↓"
+                android:textColor="#fff"
+                android:textSize="25sp"
+                android:background="@drawable/hy" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/baiDu"
+                android:paddingRight="160dp"
+                android:id="@+id/baiDu"
+                android:layout_marginTop="20dp"
+                android:textSize="14sp"
+                android:textColor="#55efc4"
+                android:background="@drawable/shape_10dp_top_corners"
+                tools:ignore="ButtonStyle,RtlSymmetry" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/b"
+                android:id="@+id/bili"
+                android:textSize="14sp"
+                android:paddingRight="132dp"
+                android:textColor="#55efc4"
+                android:background="#243B55"
+                tools:ignore="ButtonStyle,RtlSymmetry" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/zhiHu"
+                android:textSize="14sp"
+                android:id="@+id/zhiHu"
+                android:paddingRight="170dp"
+                android:textColor="#55efc4"
+                android:background="@drawable/shape_10dp_bottom_corners"
+                tools:ignore="ButtonStyle,RtlSymmetry" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="160dp"
+                android:textColor="#A0AFCF"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:background="@drawable/shape_10dp_top_corners"
+                android:text="app developer : 炭子文" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#A0AFCF"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:background="#243B55"
+                android:text="school num : 2180558" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:textColor="#A0AFCF"
+                android:textSize="12sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:background="@drawable/shape_10dp_bottom_corners"
+                android:text="version : 1.0.0 (2021.6.21内测版)" />
+        </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+    <include layout="@layout/nav1" />
+</RelativeLayout>
